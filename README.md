@@ -36,7 +36,8 @@
 
 
 ## Setting Up
-Run firstly "pip install -r requirements.txt", then "uvicorn app.main:app --reload"
+pip install -r requirements.txt
+uvicorn app.main:app --reload
 
 ## Test with Airflow log
 curl -X POST http://127.0.0.1:8000/analyze \
