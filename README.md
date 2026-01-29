@@ -1,5 +1,5 @@
 
-# LLM Log Analyzer – Airflow Example
+# LLM-Based-Data-Pipeline-Error-Analyzer
 
 # The Architecture
 
@@ -59,5 +59,3 @@ curl -X POST http://127.0.0.1:8000/analyze \
   ],
   "confidence": 0.88
 }
-
-# LLM-Based-Data-Pipeline-Error-Analyzer
