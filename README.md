@@ -2,8 +2,7 @@
 # LLM Log Analyzer – Airflow Example
 
 ## Run
-pip install -r requirements.txt
-uvicorn app.main:app --reload
+Run firstly "pip install -r requirements.txt", then "uvicorn app.main:app --reload"
 
 ## Test with Airflow log
 POST /analyze
