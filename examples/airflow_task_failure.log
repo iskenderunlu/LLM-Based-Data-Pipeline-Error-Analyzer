@@ -1,0 +1,8 @@
+
+[2025-01-10 03:21:45,123] {taskinstance.py:1770} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/airflow/dags/etl_pipeline.py", line 42, in run_etl
+    df = extract_from_db()
+  File "/usr/local/airflow/dags/utils/db.py", line 88, in extract_from_db
+    raise TimeoutError("Database connection timeout")
+TimeoutError: Database connection timeout
